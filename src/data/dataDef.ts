@@ -40,7 +40,7 @@ interface HeroActionItem {
 export interface About {
   profileImageSrc?: string;
   description: string;
-  aboutItems: AboutItem[];
+  aboutItems?: AboutItem[];
 }
 
 export interface AboutItem {
@@ -87,10 +87,10 @@ export interface PortfolioItem {
  * Resume section
  */
 export interface TimelineItem {
-  date: string;
+  date?: string;
   location: string;
   title: string;
-  content: JSX.Element;
+  content?: JSX.Element;
 }
 
 /**
