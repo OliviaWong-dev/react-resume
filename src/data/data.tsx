@@ -46,7 +46,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-       <strong className="text-stone-100">Full Stack Software Develoepr</strong>
+       <strong className="text-stone-100 text-2xl">Full Stack Software Developer</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       Self-motivated and dedicated full-stack software developer with 2 years of experience indeveloping feature, debugging and reviewing code in agile scrum cycle. Demonstrated strong ethics and professionalism in handling confidential material and information. Self-directed learner who takes initiatives to seek solution independently and with teammates. Recognized for building strong client relationships and excellent interpersonal skills.
@@ -68,70 +68,99 @@ export const heroData: Hero = {
  */
 export const skills: SkillGroup[] = [
   {
+    name: 'FrameWork/Libraries',
+    skills: [
+      {
+        name: 'Ajax',
+      },
+      {
+        name: 'Axios',
+      },
+      {
+        name: 'CSS',
+      },
+      {
+        name: 'Express',
+      },
+      {
+        name: 'jQuery',
+      },
+      {
+        name: 'Node JS',
+      },
+      {
+        name: 'Rails',
+      },
+      {
+        name: 'React JS',
+      },
+      {
+        name: 'Sass',
+      },
+    ],
+  },
+  {
+    name: 'Programming Languages',
+    skills: [
+      {
+        name: 'Javascript',
+      },
+      {
+        name: 'PHP',
+      },
+      {
+        name: 'Ruby',
+      },
+    ],
+  },
+  {
+    name: 'Database/Tools/Others',
+    skills: [
+      {
+        name: 'Chrome Dev Tool',
+      },
+      {
+        name: 'Git',
+      },
+      {
+        name: 'MySQL',
+      },
+      {
+        name: 'Postgres',
+      },
+      {
+        name: 'RESTFUL API',
+      },
+    ],
+  },
+  {
+    name: 'Testing',
+    skills: [
+      {
+        name: 'Chai',
+      },
+      {
+        name: 'Cypress',
+      },
+      {
+        name: 'Jest',
+      },
+      {
+        name: 'Mochai',
+      },
+      {
+        name: 'Storybook',
+      },
+    ],
+  },
+  {
     name: 'Spoken languages',
     skills: [
       {
         name: 'English',
-        level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'Chinese',
       },
     ],
   },
