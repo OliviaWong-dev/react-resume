@@ -38,5 +38,3 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
 
 Page.displayName = 'Page';
 export default Page;
-
-"test"
