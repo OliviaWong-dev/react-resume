@@ -1,5 +1,6 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import Link from 'next/link';
 import {FC, memo} from 'react';
 
 import {heroData, SectionId} from '../../data/data';
@@ -31,11 +32,11 @@ const Hero: FC = memo(() => {
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
-          <a
+          <Link
             className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
             href={`/#${SectionId.Resume}`}>
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
-          </a>
+          </Link>
         </div>
       </div>
     </Section>
