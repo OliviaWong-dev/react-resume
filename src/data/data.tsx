@@ -49,7 +49,7 @@ export const heroData: Hero = {
        <strong className="text-stone-100 text-2xl">Full Stack Software Developer</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Self-motivated and dedicated full-stack software developer with 2 years of experience indeveloping feature, debugging and reviewing code in agile scrum cycle. Demonstrated strong ethics and professionalism in handling confidential material and information. Self-directed learner who takes initiatives to seek solution independently and with teammates. Recognized for building strong client relationships and excellent interpersonal skills.
+      Self-motivated and dedicated full-stack software developer with two years of experience in delivering new and enhanced product features for a financial appointment scheduling application within an agile/scrum environment.  Team was responsible for high traffic work in appointment scheduling, calendar sync integration,and more that generated 83% of the company’s overall ARR of 20+ million. A strong collaborator who was able to leverage past finance and business support experience to work effectively with both technical and non technical stakeholders to deliver business value, including close collaboration with product and design, solutioning and pair programming with engineering, testing and code reviews.
       </p>
     </>
   ),
@@ -106,10 +106,16 @@ export const skills: SkillGroup[] = [
         name: 'Javascript',
       },
       {
+        name: 'Typescript',
+      },
+      {
         name: 'PHP',
       },
       {
         name: 'Ruby',
+      },
+      {
+        name: 'CSS',
       },
     ],
   },
@@ -131,11 +137,26 @@ export const skills: SkillGroup[] = [
       {
         name: 'RESTFUL API',
       },
+      {
+        name: 'Docker',
+      },
+      {
+        name: 'Postman',
+      },
+      {
+        name: 'Datadog',
+      },
+      {
+        name: 'Bitbucket',
+      },
     ],
   },
   {
     name: 'Testing',
     skills: [
+      {
+        name: 'react-testing-library',
+      },
       {
         name: 'Chai',
       },
@@ -146,10 +167,13 @@ export const skills: SkillGroup[] = [
         name: 'Jest',
       },
       {
-        name: 'Mochai',
+        name: 'Mocha',
       },
       {
         name: 'Storybook',
+      },
+      {
+        name: 'PHPUnit',
       },
     ],
   },
@@ -219,7 +243,7 @@ export const experience: TimelineItem[] = [
     title: 'Full Stack Developer',
     content: (
       <p>
-        Developed, debugged and tested the appointment scheduling application in an agile scrum environment with a team of 8 using React on the FE and PHP Laravel on the BE
+        Directly involved in planning, full-stack development using Javascript/React, PHP/Laravel and MariaDB, manual and automated testing, code review, and deployment to production, while communicating and demoing progress to key stakeholders
       </p>
     ),
   },
