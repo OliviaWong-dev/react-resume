@@ -49,7 +49,7 @@ export const heroData: Hero = {
        <strong className="text-stone-100 text-2xl">Finance and Tech</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Self-motivated and dedicated full-stack software developer with two years of experience in delivering new and enhanced product features for a financial appointment scheduling application within an agile/scrum environment.  Team was responsible for high traffic work in appointment scheduling, calendar sync integration,and more that generated 83% of the company’s overall ARR of 10+ million. A strong collaborator who was able to leverage past finance and business support experience to work effectively with both technical and non technical stakeholders to deliver business value, including close collaboration with product and design, solutioning and pair programming with engineering, testing and code reviews.
+      Results-driven business and finance support professional with over a decade of experience specializing in FP&A, Budgeting/Forecasting, MIS control, and Cost Management & Analytics across banking, education, and tech sectors. Proven track record of implementing cost-saving initiatives, optimizing financial processes, and delivering measurable business value. Skilled in leveraging technology like SQL to extract actionable insights and support data-driven decision-making. A collaborative team player adept at working with technical and non-technical stakeholders to achieve strategic objectives. Excited to apply finance expertise and software development skills to drive success in a dynamic setting.
       </p>
     </>
   ),
@@ -67,6 +67,44 @@ export const heroData: Hero = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
+  {
+    name: 'Finance/Business Support',
+    skills: [
+      {
+        name: 'Budgeting/Forecasting',
+      },
+      {
+        name: 'Business Partnering',
+      },
+      {
+        name: 'Cash Management',
+      },
+      {
+        name: 'Cost Management',
+      },
+      {
+        name: 'Financial Modelling',
+      },
+      {
+        name: 'FP&A',
+      },
+      {
+        name: 'Microsoft Power BI',
+      },
+      {
+        name: 'Microsoft Excel',
+      },
+      {
+        name: 'Microsoft Powerpoint',
+      },
+      {
+        name: 'MIS Control',
+      },
+      {
+        name: 'Orcale Hyperion Essbase',
+      },
+    ],
+  },
   {
     name: 'FrameWork/Libraries',
     skills: [
@@ -219,14 +257,6 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    location: 'Diploma: Web Development Bootcamp',
-    title: 'LIGHTHOUSE LABS',
-  },
-  {
-    location: 'Micro-credential: Digital Transformation',
-    title: 'BCIT',
-  },
-  {
     location: 'Master of Management: Concentration in Financial Management',
     title: 'MACQUARIE UNIVERSITY',
   },
@@ -234,28 +264,36 @@ export const education: TimelineItem[] = [
     location: 'Bachelor of Arts: Major in Economics; Minor in Commerce',
     title: 'UNIVERSITY OF BRITISH COLUMBIA',
   },
+  {
+    location: 'Diploma: Web Development Bootcamp',
+    title: 'LIGHTHOUSE LABS',
+  },
+  {
+    location: 'Micro-credential: Digital Transformation',
+    title: 'BCIT',
+  },
 ];
 
 export const experience: TimelineItem[] = [
   {
     date: '2022 - 2023',
     location: 'Coconut Software',
-    title: 'Full Stack Developer',
-    content: (
-      <p>
-        Directly involved in planning, full-stack development using Javascript/React, PHP/Laravel and MariaDB, manual and automated testing, code review, and deployment to production, while communicating and demoing progress to key stakeholders
-      </p>
-    ),
+    title: 'Developer',
   },
   {
     date: '2017 - 2021',
     location: 'University of British Columbia',
-    title: 'Cash Analyst',
+    title: 'Fiance Analyst, Cash Management',
   },
   {
     date: '2015 - 2017',
-    location: 'Bank of America Merrill Lynch,',
+    location: 'Bank of America Merrill Lynch',
     title: 'Assistant Vice President, Equity Technology Regional Business Support Lead',
+  },
+  {
+    date: '2009 - 2013',
+    location: 'Nomura International Limited',
+    title: 'Finance Associate, Financial Planning and Analysis',
   },
 ];
 
