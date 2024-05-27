@@ -46,7 +46,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-       <strong className="text-stone-100 text-2xl">Full Stack Software Developer</strong>
+       <strong className="text-stone-100 text-2xl">Finance and Tech</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       Self-motivated and dedicated full-stack software developer with two years of experience in delivering new and enhanced product features for a financial appointment scheduling application within an agile/scrum environment.  Team was responsible for high traffic work in appointment scheduling, calendar sync integration,and more that generated 83% of the company’s overall ARR of 10+ million. A strong collaborator who was able to leverage past finance and business support experience to work effectively with both technical and non technical stakeholders to deliver business value, including close collaboration with product and design, solutioning and pair programming with engineering, testing and code reviews.
