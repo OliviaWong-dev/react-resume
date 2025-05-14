@@ -49,7 +49,7 @@ export const heroData: Hero = {
        <strong className="text-stone-100 text-2xl">Finance and Tech</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Results-driven business and finance support professional with over a decade of experience specializing in FP&A, Budgeting/Forecasting, MIS control, and Cost Management & Analytics across banking, education, and tech sectors. Proven track record of implementing cost-saving initiatives, optimizing financial processes, and delivering measurable business value. Skilled in leveraging technology like SQL to extract actionable insights and support data-driven decision-making. A collaborative team player adept at working with technical and non-technical stakeholders to achieve strategic objectives. Excited to apply finance expertise and software development skills to drive success in a dynamic setting.
+      Results-driven business and finance support with over a decade of experience specializing in FP&A, Budgeting/Forecasting, MIS control, financial modeling, Cash Management, and Cost Management & Analytics across banking, education, and tech sectors. Proven track record of implementing cost-saving initiatives, optimizing financial processes, and delivering measurable business value. Skilled in leveraging Excel, macros, MS Office applications, and SQL to extract actionable insights and support data-driven decision-making. A collaborative team player adept at working with technical and non-technical stakeholders to achieve strategic objectives.
       </p>
     </>
   ),
@@ -276,9 +276,9 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2022 - 2023',
-    location: 'Coconut Software',
-    title: 'Developer',
+    date: '2024 - 2025',
+    location: 'Best Buy Canada (Contract)',
+    title: 'Senior Financial Analyst',
   },
   {
     date: '2017 - 2021',
